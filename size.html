@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sizing an Image</title>
+    <link rel="stylesheet" href="size.css">
+</head>
+<body>
+
+    <div class="d1">
+        <h1>Sizing an Image</h1>
+        <br><br>
+        <p> Increase the width of an image by clicking the plus button and decrease by clicking the Minus button. 
+            For every action, the image increases or decreases by 5px</p>
+
+        <br>
+        <p id="errorMsg" style="color: red; font-size: 25px;"></p>
+        <br> <br> <br>
+        <img id="changeImg" src="https://thumbs.dreamstime.com/b/blue-flower-png-transparent-chrysanthemum-plant-clipart-ai-306655718.jpg" width="300px">
+        <br>
+        <h3 > Width : <span id="width" > 300 </span> px </h3>
+        <br>
+        <div class="box"> 
+            <button onclick="minus()" style="margin-right: 5px; border: none; font-size: 30px; background-color: white;"> -  </button>
+            <p style="margin-right: 5px;"> | </p>
+            <p style="margin-right: 5px;"> 5px </p>
+            <p style="margin-right: 5px;"> | </p>
+            <button onclick="plus()" style="margin-right: 5px; border: none;font-size: 30px;background-color: white;"> + </button>
+         </div>
+
+
+    </div>
+
+
+    <script src="size.js"></script>
+</body>
+</html>
